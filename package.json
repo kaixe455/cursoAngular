@@ -11,7 +11,7 @@
     "build:prod": "ng build --prod",
     "build:pub": "ng build --prod --output-path docs --base-href https://github.com/kaixe455/cursoAngular/",
     "pub": "npm run build:pub && npm run push",
-    "push": "git add * && git commit -m 'pub' && git push"
+    "push": "git add * && git commit -m 'pub' && git push master"
   },
   "private": true,
   "dependencies": {
