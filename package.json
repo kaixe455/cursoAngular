@@ -9,7 +9,7 @@
     "e2e": "ng e2e",
     "start": "ng serve --aot -o",
     "build:prod": "ng build --prod",
-    "build:pub": "ng build --prod --output-path docs --base-href https://github.com/kaixe455/cursoAngular/",
+    "build:pub": "ng build --prod --output-path docs --base-href https://github.com/trainingit-introangular/practica-final-curso-kaixe455",
     "pub": "npm run build:pub && npm run push",
     "push": "git add * && git commit -m 'pub' && git push master"
   },
